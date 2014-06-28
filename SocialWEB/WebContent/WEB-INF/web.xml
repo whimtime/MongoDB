@@ -12,9 +12,18 @@
   <servlet>
     <servlet-name>inserisciCommento</servlet-name>
     <servlet-class>com.SocialWEB.servlet.inserisciCommento</servlet-class>
-</servlet>
-<servlet-mapping>
+  </servlet>  
+  <servlet>
+    <servlet-name>outCommenti</servlet-name>
+    <servlet-class>com.SocialWEB.servlet.outServletSocial</servlet-class>
+  </servlet>  
+  
+  <servlet-mapping>
     <servlet-name>inserisciCommento</servlet-name>
     <url-pattern>/inserisci</url-pattern>
-</servlet-mapping>
+  </servlet-mapping> 
+  <servlet-mapping>  
+    <servlet-name>outCommenti</servlet-name>
+    <url-pattern>/outSocial</url-pattern>
+  </servlet-mapping> 
 </web-app>
